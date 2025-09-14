@@ -18,7 +18,7 @@ const {
 <template>
   <div class="min-h-screen home-background flex items-center justify-center">
     <div
-      class="flex flex-col items-center justify-center md:flex-row md:px-5 lg:max-w-4xl lg:w-full lg:justify-between"
+      class="flex flex-col items-center justify-center md:flex-row md:px-5 w-full lg:max-w-4xl lg:justify-between"
     >
       <div
         class="text-white flex flex-col items-center mb-10 text-center gap-y-2 md:items-start md:mb-0 md:max-w-80"
