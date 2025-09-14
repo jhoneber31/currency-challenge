@@ -1,4 +1,4 @@
-# COTIZADOR DE PARA CAMBIO DE MONEDA
+# COTIZADOR PARA CAMBIO DE MONEDA
 
 ## Instalación y configuración
 
@@ -42,7 +42,12 @@ Las principales librerías del proyecto son las siguientes:
 
 Las siguientes variables de entorno son necesarias para ejecutar el proyecto:
 
-- NEXT_PUBLIC_API_URL: URL base de las APIs a consumir
+- VITE_FIREBASE_API_KEY= Clave API de Firebase para autenticar las solicitudes a los servicios de Firebase
+- VITE_FIREBASE_AUTH_DOMAIN= Dominio de autenticación de Firebase para la autenticación de usuarios
+- VITE_FIREBASE_PROJECT_ID= ID único del proyecto de Firebase en la consola de Firebase
+- VITE_FIREBASE_STORAGE_BUCKET= URL del bucket de almacenamiento de Firebase
+- VITE_FIREBASE_MESSAGING_SENDER_ID= ID del remitente para mensajería push y notificaciones
+- VITE_FIREBASE_APP_ID= ID único de la aplicación Firebase para identificar tu aplicación
 
 ### Ejecutar el proyecto en desarrollo
 
